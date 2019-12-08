@@ -1,22 +1,12 @@
 <!doctype html>
 <html>
 <link rel="stylesheet" href="style.css">
-
 <head>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <title>Terra Life</title>
      <link rel="shortcut icon" type="image/svg" href="assets/img/favicon.svg">
-     <!-- Bootstrap CSS Framework -->
-     <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
      <!-- End Bootstrap CSS Framework -->
@@ -25,28 +15,25 @@
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-     <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-     <link rel="leaf-icon" href="leaf-icon.png">
-     <link rel="favicon" href="favicon.icon">
+     <link rel="favicon" href="assets/img/favicon.png">
 
 </head>
 
-<div id="header">
+<div id="title-top">
      <h1><span><i class="fas fa-leaf"></i></span> Terra Life Products</h1>
 </div>
 
 
 <body>
+     <h2 class="headers">Featured</h2>
      <div class="page-container">
 
-          <h2>Featured</h2>
           <div class="slide-container">
                <span id="slider-image-1"></span>
                <span id="slider-image-2"></span>
                <div class="image-container">
-                    <img src="p1.jpg" class="slider-image">
-                    <img src="p2.jpg" class="slider-image">
+                    <img src="assets/img/p1.jpg" class="slider-image">
+                    <img src="assets/img/p2.jpg" class="slider-image">
                </div>
                <div class="button-container">
                     <a href="#slider-image-1" class="slider-button"></a>
@@ -54,57 +41,70 @@
 
                </div>
           </div>
-          <div class="paragraph">
-               <paragraph>Our purple shampoo bar sorts out oily hair problems by washing away grease and managing oil
-                    production. Fruity juniper berry oil clarifies oily, congested scalps, while lemon and lime make
+
+               <paragraph class="text">Our purple shampoo bar sorts out oily hair problems by washing away grease and
+                    managing
+                    oil
+                    production. Fruity juniper berry oil clarifies oily, congested scalps, while lemon and lime
+                    make
                     your
                     hair clean and shiny and give it an extra fresh scent. The incredible herbal duo of soothing
                     lavender and
-                    cleansing rosemary calm and stimulate the scalp, because healthy hair comes from a healthy scalp.
+                    cleansing rosemary calm and stimulate the scalp, because healthy hair comes from a healthy
+                    scalp.
                </paragraph>
-          </div>
 
-          <h3>How to Use</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/HzsnD7Yr1_M" frameborder="0"
-               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-          <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+     <h3 class="headers">How to Use</h3>
 
-          <!-- TODO: Create an area to put the explainer video. -->
 
-          <!-- TODO: Create an area to put customer testimonials. -->
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/HzsnD7Yr1_M" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <h4 class="headers">Customer Testimonials</h4>
+     <paragraph class="text">I enjoyed using this shampoo bar for months before it started to break into smaller
+          bits and pieces - now I'm managing to use these little pieces to finish off the bar. I will start by
+          saying I was very impressed with how far just a little of this product would go. Just a few swipes on my
+          hair would be enough to build a substantial lather and a great clean. This being said, if you are
+          avoiding sulphates this product will not be for you! Lovely scent and I am so happy to have
+          packaging-free hair products from LUSH. Looking forward to future iterations with gentler formulations
+          (SLS free) and new scents. Will definitely keep purchasing shampoo bars from LUSH!
+     </paragraph>
+     <paragraph class="text2">Never thought with my long hair I would be a convert to the shampoo bar but I am
+          sold! I love the story behind lush and their products so I wanted to try the shampoo bar since I had read
+          a lot about it. I am thrilled to say I am hooked. It lathers great, I only wash my hair about once a week
+          so I wash twice but it doesn't feel stripping. My hair just feels so clean with no clarifying shampoo
+          needed! It has that squeaky clean scalp sound. I'm obsessed. 💯 try it. Travels amazingly and I can't
+          imagine going back now! Thank you lush! 🙏🏻</paragraph>
 
-          <!-- TODO: Create an area to show features. -->
 
-          <!-- TODO: Create an area to show company contact info (phone,
+     <!-- TODO: Create an area to put customer testimonials. -->
+
+     <!-- TODO: Create an area to show features. -->
+
+     <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
 
-          <!-- TODO: Create an area that allows users to Share links to the
+     <!-- TODO: Create an area that allows users to Share links to the
              page. -->
 
-          <!-- TODO: Create a call to action link to get users to sign up for the
+     <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-               integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-               crossorigin="anonymous">
-          </script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-               integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-               crossorigin="anonymous">
-          </script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-               integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-               crossorigin="anonymous">
-          </script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+     </script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+          integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+     </script>
+     </div>
+     <div class="footer-left">
+          <footer>Copywright 2019</footer>
+     </div>
+     <div class="footer-right">
+          <footer>Anneke Karreman </footer>
      </div>
 </body>
-
-<div class="footer-left" style="float; right">
-     <footer>Copywright 2019</footer>
-</div>
-<div class="footer-right" style="float; left">
-     <footer>Anneke Karreman </footer>
-</div>
 
 </html>
