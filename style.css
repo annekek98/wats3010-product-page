@@ -10,6 +10,8 @@
 .headers {
     padding: 20px; 
     font-size: 1.75rem;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .text {
