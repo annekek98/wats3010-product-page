@@ -10,7 +10,6 @@
 .headers {
     padding: 20px; 
     font-size: 1.75rem;
-    text-decoration: underline;
     text-align: center;
 }
 
@@ -39,10 +38,10 @@ iframe {
     width: 100%;
 }
 
-#title-top {
+.title-top {
     text-align: center;
     padding: 20px;
-    color: teal;
+    color: teal; 
 }
 
 .button {
